@@ -12,11 +12,9 @@ class EmailParser
     end
     .flatten.uniq 
   end
+  
 end
   
-  
-  
-  end
   
   
   # Build a class EmailParser that accepts a string of unformatted 
