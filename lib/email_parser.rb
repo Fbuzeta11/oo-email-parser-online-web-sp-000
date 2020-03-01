@@ -6,6 +6,7 @@ class EmailParser
     @cvs_emails = cvs_emails
   end
   
+  def parse
     
   
   
