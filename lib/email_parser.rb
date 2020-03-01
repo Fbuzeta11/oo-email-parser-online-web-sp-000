@@ -7,7 +7,8 @@ class EmailParser
   end
   
   def parse
-    
+    cvs_emails.split.collect do |addresses|
+      
   
   
   
