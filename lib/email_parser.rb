@@ -7,11 +7,10 @@ class EmailParser
   end
   
   def parse
-    cvs_emails.split.collect do |address|
-      address.split(',')
-    end
-    .flatten.uniq 
-  end
+		@emails = @emails.gsub(/[\s,]/ ," ").split
+		# @email is an array now
+		@emails.uniq
+	end
   
 end
   
