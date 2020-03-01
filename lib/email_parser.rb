@@ -9,7 +9,8 @@ class EmailParser
   def parse
     cvs_emails.split.collect do |address|
       address.split(',')
-      
+    end
+    .flatten.unique
   
   
   
